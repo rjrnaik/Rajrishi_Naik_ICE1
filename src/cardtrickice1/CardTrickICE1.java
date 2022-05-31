@@ -22,6 +22,10 @@ public class CardTrickICE1 {
      */
     public static void main(String[] args) 
     {
+        Card luckyCard = new Card();
+        luckyCard.setValue(12);
+        luckyCard.setSuits("hearts");
+        
         Card[] magicHand = new Card[7]; //Array of object
         ArrayList<String> tempSuite = new ArrayList<String>();
         ArrayList<Integer> tempValue = new ArrayList<Integer>();
